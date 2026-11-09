@@ -2,6 +2,7 @@ package com.satyam._1securityproject1.rest;
 
 import com.satyam._1securityproject1.model.Alien;
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,5 +36,10 @@ public class AlienController {
     @GetMapping("/more-info")
     public String getCourseMoreInfo(HttpServletRequest request) {
         return "Hello World  " + request.getSession().getId();
+    }
+
+    @GetMapping("/csrf")
+    public CsrfToken getCrsfToken(HttpServletRequest request) {
+        return (CsrfToken) request.getAttribute("_csrf");
     }
 }
