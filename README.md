@@ -1,1 +1,1 @@
-<img width="1720" height="1614" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/9a4bde42-fa12-4455-b90c-28be45af5da3" />
+<img width="1520" height="2326" alt="scurity" src="https://github.com/user-attachments/assets/b5399323-4e85-4045-8140-4310fe29ef2a" />
