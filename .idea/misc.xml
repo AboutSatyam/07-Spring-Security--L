@@ -10,11 +10,14 @@
         <option value="$PROJECT_DIR$/02-SecurityProject-2/pom.xml" />
         <option value="$PROJECT_DIR$/03-Security-OAuth/pom.xml" />
         <option value="$PROJECT_DIR$/03-Security_OAuth/pom.xml" />
+        <option value="$PROJECT_DIR$/04-Security_JWT/pom.xml" />
+        <option value="$PROJECT_DIR$/04-Security-JWT/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/03-Security-OAuth/pom.xml" />
+        <option value="$PROJECT_DIR$/04-Security_JWT/pom.xml" />
       </set>
     </option>
   </component>
