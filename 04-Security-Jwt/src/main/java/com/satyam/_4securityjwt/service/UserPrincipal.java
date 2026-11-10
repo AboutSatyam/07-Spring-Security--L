@@ -1,8 +1,8 @@
 
 package com.satyam._4securityjwt.service;
 
-import com.satyam._2securityproject2.entity.Users;
 
+import com.satyam._4securityjwt.entity.Users;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,7 +1,7 @@
 package com.satyam._4securityjwt.rest;
 
-import com.satyam._2securityproject2.entity.Users;
-import com.satyam._2securityproject2.service.UserService;
+import com.satyam._4securityjwt.entity.Users;
+import com.satyam._4securityjwt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;

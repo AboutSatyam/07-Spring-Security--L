@@ -1,9 +1,9 @@
 
 package com.satyam._4securityjwt.service;
 
-import com.satyam._2securityproject2.entity.Users;
-import com.satyam._2securityproject2.rest.IUserRepo;
 
+import com.satyam._4securityjwt.entity.Users;
+import com.satyam._4securityjwt.rest.IUserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
