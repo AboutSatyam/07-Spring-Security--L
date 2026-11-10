@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
@@ -27,6 +28,8 @@ public class SecurityConfig {
 
         http.csrf(customizer -> customizer.disable());
 
+        http.authorizeHttpRequests(authorizeHttp -> authorizeHttp
+                .requestMatchers("/add-user").permitAll().anyRequest().authenticated());
         http.httpBasic(Customizer.withDefaults());
 
         http.sessionManagement(session ->
@@ -43,7 +46,7 @@ public class SecurityConfig {
 
         DaoAuthenticationProvider daoProvider =
                 new DaoAuthenticationProvider(userDetailsService);
-
+        daoProvider.setPasswordEncoder(new BCryptPasswordEncoder(12));
         return daoProvider;
     }
 }
