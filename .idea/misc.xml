@@ -9,7 +9,13 @@
         <option value="$PROJECT_DIR$/01-SecurityProject-1/pom.xml" />
         <option value="$PROJECT_DIR$/02-SecurityProject-2/pom.xml" />
         <option value="$PROJECT_DIR$/03-Security-OAuth/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Security_OAuth/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/03-Security-OAuth/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_25" default="true" project-jdk-name="ms-25" project-jdk-type="JavaSDK">
