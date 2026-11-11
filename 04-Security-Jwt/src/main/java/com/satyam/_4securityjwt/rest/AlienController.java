@@ -31,7 +31,6 @@ public class AlienController {
         list.add(alien);
         System.out.println(list);
     }
-
     @GetMapping("/get-info")
     public String getCourseInfo(HttpServletRequest request) {
         return "Hello World " + request.getSession().getId();
