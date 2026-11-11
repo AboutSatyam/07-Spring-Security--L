@@ -51,7 +51,7 @@ public class TeluskoController {
     @GetMapping("/get-courseinfo")
     public String getCourseInfo() {
 
-        return "Telusko Devops Course I Already Have In My TODO List";
+        return "Telusko Devops Course I Already Have In My TODO List ";
     }
 
 }
